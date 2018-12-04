@@ -2,9 +2,13 @@
 	position: relative;
 	height:100%;
     background-image: url(http://divyanshdixit.github.io/divyansh-panda/bg-image.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 .first-section:before{
 	position:absolute;
+	content:'';
 	top:0;
 	bottom: 0;
 	left:0;
