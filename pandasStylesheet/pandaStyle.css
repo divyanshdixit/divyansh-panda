@@ -1,0 +1,15 @@
+.first-section {
+	position: relative;
+	height:100%;
+    background-image: url(http://divyanshdixit.github.io/divyansh-panda/bg-image.png);
+}
+.first-section:before{
+	position:absolute;
+	top:0;
+	bottom: 0;
+	left:0;
+	right:0;
+	width:100%;
+	height:100%;
+	background:linear-gradient(to top, #ffbadf, #f888f7 17%, #ca5cff 42%, #6f23e7 78%, #3a00c7);
+}
